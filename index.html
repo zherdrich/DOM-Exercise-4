@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<form>
+
+    <div class="quantityInput">
+        <label for="howMany">How Many?</label>
+        <input 
+        id="howMany"
+        type="number" 
+        name = "quantity" 
+        min="1" 
+        value = "100">
+    </div>
+    
+    <div class="coinInput">
+    <label for="coins">Which Coin?</label>
+    <select type="Coins" id="coins" name= "coinType">
+      <option value="Penny">Penny</option>
+      <option value="Nickel">Nickel</option>
+      <option value="Dime">Dime</option>
+      <option value="Quarter">Quarter</option>
+    </select> 
+
+</div>
+
+
+    <div>
+        <button type="submit">Make Money!</button>
+    </div>
+
+</form>
+
+<section class="coinSection">
+
+
+
+
+</section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

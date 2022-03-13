@@ -1,0 +1,50 @@
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    width: 300px;
+    margin-top: 200px;
+
+}
+
+
+#howMany {
+    width: 150px;
+}
+
+
+
+#coins {
+    width: 150px
+}
+
+button {
+    background-color: teal;
+    border: 1px inset teal;
+    position: relative;
+    right: 75px;
+}
+
+
+
+
+
+.coin {
+    background-color: lightgrey;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coinSection {
+    display: flex;
+    flex-wrap: wrap;
+}
